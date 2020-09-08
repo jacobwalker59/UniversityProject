@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "994851240641",
+    "firebase_url": "https://dissertation-4dd91.firebaseio.com",
+    "project_id": "dissertation-4dd91",
+    "storage_bucket": "dissertation-4dd91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994851240641:android:d89539831422ffc7",
+        "android_client_info": {
+          "package_name": "com.example.dissertation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994851240641-o0fa37b41jv6f567vs4jui9pkbd1samr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dissertation",
+            "certificate_hash": "0f835bf5969b60eeaa19228c6b838633c07818bf"
+          }
+        },
+        {
+          "client_id": "994851240641-g66i5mp0r1emhqbqgj8l3tcn8tiqi1fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmV-b7Tbvg7RL9jrqyFuCm2Nk5Y_SxSFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994851240641-g66i5mp0r1emhqbqgj8l3tcn8tiqi1fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/auto_complete_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:visibility="gone"
+        android:hint="Search"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/places_search"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:hint="Enter place name"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/search"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:padding="5dp"
+            android:src="@drawable/search"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_marginRight="2dp"
+            android:id="@+id/busStopHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="Find Next Pickup"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/searchBuses"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/search" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="289dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/map_horizontal_recyclerView"
+        android:orientation="vertical"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_weight="1"
+        android:divider="@null"
+
+        app:reverseLayout="true" />
+
+
+        />
+
+</LinearLayout>
